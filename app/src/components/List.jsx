@@ -91,14 +91,14 @@ const List = () => {
                             </div>
                             <div className='list2'>
                                 <p>{item.status || 'Not Completed'}</p>
-                                <button onClick={() => handleEdit(index)}>Edit</button>
-                                <button onClick={() => handleDelete(index)}>Delete</button>
+                                <button onClick={() => handleEdit(index)} style={{backgroundColor:'blue'}}>Edit</button>
+                                <button onClick={() => handleDelete(index)} style={{backgroundColor:'red'}}>Delete</button>
                             </div>
                         </div>
                     ))}
                 </>
             ) : (
-                <div>No tasks added yet.</div>
+                <div className=' text-center'>No tasks added yet.</div>
             )}
         </>
     );

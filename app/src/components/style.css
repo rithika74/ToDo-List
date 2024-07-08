@@ -31,7 +31,8 @@ form select {
 form button {
     border: none;
     border-radius: 5px;
-    background-color: rgb(174, 64, 174);
+    /* background-color: rgb(174, 64, 174); */
+    background-color: navy;
     color: white;
     padding: 10px;
     font-weight: 700;
@@ -40,7 +41,8 @@ form button {
 }
 
 form button:hover {
-    background-color: rgb(131, 19, 131);
+    /* background-color: rgb(131, 19, 131); */
+    background-color: rgb(26, 26, 183);
 }
 
 .list {
@@ -69,7 +71,6 @@ form button:hover {
     margin: 0px 10px;
     border: none;
     border-radius: 5px;
-    background-color: blue;
     color: white;
     width: 80px;
 }
